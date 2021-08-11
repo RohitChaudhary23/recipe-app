@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../images/service.jpg';
 
 function Service() {
     return (
@@ -6,7 +7,7 @@ function Service() {
             <div className="row border-bottom">
                 <div className="col-12 col-md-10 mx-auto service-container mb-5">
 
-                    <img src="images/service.jpg" className="img-fluid" alt="Service-image" />
+                    <img src={image} className="img-fluid" alt="Service-image" />
                     <h1 className="text-white p-2 fw-bolder">Service</h1>
                     <p className="text-white p-2">Proident ad commodo excepteur velit ex. Non do quis ex fugiat anim dolore tempor tempor amet ut. Pariatur reprehenderit sunt quis dolor laboris ullamco Lorem eu. Ex reprehenderit et ea consequat anim aute esse elit velit exercitation anim cupidatat culpa. Culpa tempor mollit anim proident nulla ea aliquip incididunt aliqua nostrud. Incididunt ex cupidatat tempor eu qui veniam velit. Veniam sunt laboris ullamco do deserunt et commodo aute deserunt.</p>
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import image from '../images/contact.jpg';
 
 function Contact() {
 
@@ -36,7 +37,7 @@ function Contact() {
                 <div className="col-12 col-md-10 mx-auto d-flex align-items-center justify-content-between">
 
                     <div className="col-lg-6 d-none d-lg-block">
-                        <img src="images/contact.jpg" alt="contact-image" className="contact-image" />
+                        <img src={image} alt="contact-image" className="contact-image" />
                     </div>
 
                     <div className="col-12 col-lg-6">

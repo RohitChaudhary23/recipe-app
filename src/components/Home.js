@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import video from '../video/video-1.mp4';
+import image1 from '../images/pexels-cottonbro-5674144.jpg';
+import image2 from '../images/pexels-dapurmelodi-1109197.jpg';
 
 function Home() {
     return (
@@ -32,7 +34,7 @@ function Home() {
                 <div className="col-12 col-md-10 mx-auto">
                     <div className="home-box-1 d-flex align-items-center justify-content-between">
 
-                        <img className="img-thumbnail rounded-img-fluid image1 col-12 col-md-4" src="images/pexels-cottonbro-5674144.jpg" alt="Image1" />
+                        <img className="img-thumbnail rounded-img-fluid image1 col-12 col-md-4" src={image1} alt="Image1" />
 
                         <div className="col-12 col-md-7">
                             <h2 className="home-box-title">Editor's Pick</h2>
@@ -45,7 +47,7 @@ function Home() {
 
                     <div className="home-box-2 d-flex align-items-center justify-content-between">
 
-                        <img className="img-thumbnail rounded-img-fluid image1 col-12 col-md-4 mx-2" src="images/pexels-dapurmelodi-1109197.jpg" alt="Image1" />
+                        <img className="img-thumbnail rounded-img-fluid image1 col-12 col-md-4 mx-2" src={image2} alt="Image1" />
 
                         <div className="col-12 col-md-7">
                             <h2 className="home-box-title">Recent Stories</h2>

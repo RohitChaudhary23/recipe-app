@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
 import { CarouselData } from './CarouselData';
+import image from '../images/pexels-sarah-chai-7262906.jpg';
 
 function About() {
     return (
@@ -10,7 +11,7 @@ function About() {
                         <h1 className="text-white text-uppercase about-title">About Us</h1>
                         <p className="p-3 text-white">Qui reprehenderit ad Lorem non labore veniam proident sint enim. Consequat ex exercitation sint anim qui pariatur mollit. Non cillum est ullamco incididunt amet id amet reprehenderit et reprehenderit occaecat. Dolore esse commodo ex et dolore incididunt nostrud sit qui ullamco dolor. Elit occaecat occaecat in mollit non ad adipisicing non ipsum. Sunt exercitation magna dolore adipisicing tempor laborum.</p>
 
-                        <img className="img-fluid about-image" src="../images/pexels-sarah-chai-7262906.jpg" alt="about-image" />
+                        <img className="img-fluid about-image" src={image} alt="about-image" />
                     </div>
             </div>
 
